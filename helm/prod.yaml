@@ -1,3 +1,7 @@
 component: cart
 params: "DOCUMENTDB:prod.user.mongo,REDIS_HOST:prod.elasticache.endpoint,MONGO_URL:prod.docdb.url.user"
 env: prod
+
+schemaLoadJob:
+  create: true
+  type: mongo
